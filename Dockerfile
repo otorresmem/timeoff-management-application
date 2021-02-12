@@ -32,7 +32,7 @@ RUN apk update && \
 RUN adduser --system app --home /app
 USER app
 WORKDIR /app
-RUN git clone https://github.com/timeoff-management/application.git timeoff-management
+RUN git clone https://github.com/raguirreg10/timeoff-management-application.git timeoff-management
 WORKDIR /app/timeoff-management
 
 RUN npm install
