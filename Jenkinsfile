@@ -13,7 +13,7 @@ pipeline{
         IMAGE_NAME = 'timeoff'
         IMAGE_TAG = 'latest'
         UPDATE_APP = false
-        DESTROY_INFRA = true
+        DESTROY_INFRA = false
         CLUSTER_NAME = "timeoff-cluster"
         SERVICE_NAME = "timeoff-service"
         DOMAIN_NAME = "timeoff-example.link"
